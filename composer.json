@@ -1,0 +1,22 @@
+{
+    "name": "pak-legal-desk/pak-legal-ai",
+    "description": "Pak Legal Desk AI Legal Services Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PakLegalAI\\App\\": "app/",
+            "PakLegalAI\\Includes\\": "includes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
